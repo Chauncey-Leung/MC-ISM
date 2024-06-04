@@ -122,13 +122,6 @@ function xtest = step(L, lamb, yk, grad, RegItem)
     if RegItem(1) == 1
         xtest = c_g;
     elseif RegItem(2) == 1
-        [Height, Width, periods] = size(g);
-        tmp = zeros(Height, Width);
-        meanc = mean(c_g,3);
-        tmp(meanc>0) = -lamb(1)/L;
-        solution = repmat(tmp,1,1,periods)+c_g;
-        xtest = max(solution, 0);
-    elseif RegItem(3) == 1
         deno = L * sqrt(sum(c_g.^2, 3))/lamb(1);
         step_length = max(1-1./deno, 0);
         xtest = repmat(step_length, [1, 1, size(c_g, 3)]) .* c_g; 
