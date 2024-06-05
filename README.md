@@ -8,6 +8,7 @@ Currently, the repository contains the following contents.
 | MC-ISMXi    | MC-ISM reconstruction program|
 | Lattice_uniform|Codes for hardware testing (motion state of the galvanometer)|
 | MC_ISM_Hardware_Code|Hardware control codes|
+|Pinhole array mask processing drawings|CAD and PDF drawings of pinhole arrays|
 | UsersGuide.pdf| Detailed instructions|
 
 
