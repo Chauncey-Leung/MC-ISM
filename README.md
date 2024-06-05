@@ -13,7 +13,7 @@ Currently, the repository contains the following contents.
 
 
 # System requirements
-MC-ISM reconstruction program was implemented as a friendly Graphical User Interface (GUI) of MATLAB R2022a. Hardware control is implemented through LabVIEW 2017. We used a Dell Precision 5820 Tower equipped with the operating system Windows 10 Pro, an Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz processor and 256 GB of installed RAM.
+MC-ISM reconstruction program was implemented as a friendly Graphical User Interface (GUI) of MATLAB R2022a. Hardware control is implemented through LabVIEW 2017. We used a Dell Precision 5820 Tower equipped with the operating system Windows 10 Pro, an Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz processor and 256 GB installed RAM.
 
 If this is the first time of your executing the software, please install Matlab 2022a according to https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html. 
 
