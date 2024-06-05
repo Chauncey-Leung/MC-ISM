@@ -16,4 +16,4 @@ MC-ISM reconstruction program was implemented as a friendly Graphical User Inter
 
 If this is the first time of your executing the software, please install Matlab 2022a according to https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html. 
 
-The LabVIEW 2017 download link is at: https://www.ni.com/en/support/downloads/software-products/download.labview.html#359514
+The LabVIEW 2017 download link is at: https://www.ni.com/en/support/downloads/software-products/download.labview.html#359514.
