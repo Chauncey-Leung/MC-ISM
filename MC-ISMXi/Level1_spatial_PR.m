@@ -59,7 +59,7 @@ for imgIndex = 3:count+2
     Img(:,:,imgIndex-2) = temp;
     % Image preprocessing without changing the original data
     temp2 = temp;
-
+%     preprocessing
     temp = medfilt2(temp);
     temp = ifftshift(ifft2(fft2(temp).*H3));
     logipoint = ((temp(1:end-2, 1:end-2) < temp(2:end-1, 2:end-1)) & ...
@@ -193,10 +193,10 @@ toc
 %% 5. save results
 
 if ispinhole
-    temp_filename = strcat(filepath,'\S2_recon_ws',num2str(ws2),'_up',...
+    temp_filename = strcat(filepath,'\S1_recon_ws',num2str(ws2),'_up',...
         num2str(upfactor),'_bg',num2str(bg),'_pinhole',num2str(pinholefactor));
 else
-    temp_filename = strcat(filepath,'\S2_recon_ws',num2str(ws2),'_up',...
+    temp_filename = strcat(filepath,'\S1_recon_ws',num2str(ws2),'_up',...
         num2str(upfactor),'_bg',num2str(bg));
 end
 if isEdge
