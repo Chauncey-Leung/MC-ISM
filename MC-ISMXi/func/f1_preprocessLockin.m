@@ -42,18 +42,18 @@ function f1_preprocessLockin(filepath)
         imwrite(uint16(temp), strcat(filepathsave, num2str(ImgCount, '%03d'), '.tif'));
     end
 
-% %     % 2 deDC: -min
-    minRawimg = min(rawimg, [], 3);
-    rawimg = rawimg - repmat(minRawimg, 1, 1, n);
-%     fft_img = fft(rawimg,[],3);
-%     fft_img = fft_img .* repmat(apo,size(rawimg,1),size(rawimg,2));
-%     img_pre = ifft(fft_img,[],3);
-    for ImgCount = 1:n
-%         temp = img_pre(:,:,ImgCount);
-%         temp(temp<0) = 0;
-%         temp = abs(temp);
-        temp = rawimg(:,:,ImgCount);
-        imwrite(uint16(temp), strcat(filepathsave, num2str(ImgCount, '%03d'), '.tif'));
-    end
+% % %     % 2 deDC: -min
+%     minRawimg = min(rawimg, [], 3);
+%     rawimg = rawimg - repmat(minRawimg, 1, 1, n);
+% %     fft_img = fft(rawimg,[],3);
+% %     fft_img = fft_img .* repmat(apo,size(rawimg,1),size(rawimg,2));
+% %     img_pre = ifft(fft_img,[],3);
+%     for ImgCount = 1:n
+% %         temp = img_pre(:,:,ImgCount);
+% %         temp(temp<0) = 0;
+% %         temp = abs(temp);
+%         temp = rawimg(:,:,ImgCount);
+%         imwrite(uint16(temp), strcat(filepathsave, num2str(ImgCount, '%03d'), '.tif'));
+%     end
 
 end
