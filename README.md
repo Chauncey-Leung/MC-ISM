@@ -18,3 +18,11 @@ MC-ISM reconstruction program was implemented as a friendly Graphical User Inter
 If this is the first time of your executing the software, please install Matlab 2022a according to https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html. 
 
 The LabVIEW 2017 download link is at: https://www.ni.com/en/support/downloads/software-products/download.labview.html#359514.
+
+
+# Instructions for use
+A user's manual is attached. For any questions, please contact: chaunceyl@stu.pku.edu.cn
+
+
+# Citation
+If you find this project useful please cite the  paper: "Expanding super-resolution imaging versatility in organisms with multi-confocal image scanning microscopy",  which will soon be published in National Science Review.
