@@ -25,4 +25,5 @@ A user's manual is attached. For any questions, please contact: chaunceyl@stu.pk
 
 
 # Citation
-If you find this project useful please cite the  paper: "Expanding super-resolution imaging versatility in organisms with multi-confocal image scanning microscopy",  which will soon be published in National Science Review.
+If you find this project useful please cite the  paper: 
+Wei Ren, Meiling Guan, Qianxi Liang, Meiqi Li, Boya Jin, Guangxing Duan, Liya Zhang, Xichuan Ge, Hong Xu, Yiwei Hou, Baoxiang Gao, Sodmergen, Peng Xi, Expanding super-resolution imaging versatility in organisms with multi-confocal image scanning microscopy, National Science Review, 2024;, nwae303, https://doi.org/10.1093/nsr/nwae303
