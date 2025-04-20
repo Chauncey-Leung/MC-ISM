@@ -1,5 +1,5 @@
 # MC-ISM
-Supplementary Resource for the manuscript "NExpanding super-resolution imaging versatility in organisms with multi-confocal image scanning microscopy".
+Supplementary Resource for the manuscript "Expanding super-resolution imaging versatility in organisms with multi-confocal image scanning microscopy".
 
 Currently, the repository contains the following contents.
 
